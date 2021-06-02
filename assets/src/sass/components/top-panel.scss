@@ -1,0 +1,31 @@
+.top-panel {
+    background: #F84444;
+    display: flex;
+    padding: 1em 0;
+    justify-content: center;
+
+    .navigation {
+        display: flex;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .nav-item {
+        list-style-type: none;
+        
+        &:not(:last-child) {
+            margin-right: 1.875em;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+
+    .panel-icon {
+        font-weight: 400;
+        color: #fff;
+    }
+}

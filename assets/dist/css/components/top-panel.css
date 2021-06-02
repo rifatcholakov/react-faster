@@ -1,0 +1,22 @@
+.top-panel {
+  background: #F84444;
+  display: flex;
+  padding: 1em 0;
+  justify-content: center; }
+  .top-panel .navigation {
+    display: flex;
+    margin-left: 2em;
+    margin-right: 2em; }
+  .top-panel .nav-item {
+    list-style-type: none; }
+    .top-panel .nav-item:not(:last-child) {
+      margin-right: 1.875em; }
+    .top-panel .nav-item a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700; }
+  .top-panel .panel-icon {
+    font-weight: 400;
+    color: #fff; }
+
+/*# sourceMappingURL=top-panel.css.map */

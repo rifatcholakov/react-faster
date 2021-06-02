@@ -1,0 +1,36 @@
+// The master CSS file.
+// ----------------------------------------------------------------------------
+// One css to rule them all, One css to find them; One css to bring them all
+// and in the darkness bind them.
+// The order of files include is important. Dont change it.
+
+// All general settings and utils
+@import "base/settings";
+@import "base/mixins";
+@import "base/normalize";
+@import "base/general";
+
+@import "base/helpers";
+
+// This should not interfere with the theme, so if you
+// comment it out nothing will break.
+@import "base/styleguide";
+
+// The Foundation framework
+@import "foundation/foundation";
+
+// The Font-Awesome build files
+@import "font-awesome/fontawesome";
+
+// Separating the largest parts of the site in specific files.
+@import "layout/header";
+
+// Pages
+
+// Any other module that can be reused multuple times.
+@import "components/buttons";
+@import "components/sections";
+@import "components/elements";
+@import "components/entry";
+@import "components/input";
+@import "components/top-panel";
