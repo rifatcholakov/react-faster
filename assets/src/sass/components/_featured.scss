@@ -1,0 +1,46 @@
+.featured-item-main {
+    max-width: 600px;
+    margin-right: 2.5em;
+
+    .item-title {
+        color: #000;
+        font-weight: 700;
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .item-image {
+        width: 100%;
+    }
+
+    .item-description {
+        font-weight: 400;
+        font-size: 1.125em;
+        color: #424242;
+    }
+}
+
+.featured-items-group {
+    max-width: 16.25em;
+
+    .featured-item {
+        display: block;
+
+        &:not(:last-child) {
+            margin-bottom: 1.8888888888888888em;
+        }
+    }
+
+    .item-image {
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 0.625em;
+    }
+
+    .item-title {
+        font-weight: 500;
+        font-size: 1.125em;
+        color: #000;
+    }
+}
+

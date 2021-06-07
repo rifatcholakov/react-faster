@@ -1,0 +1,35 @@
+.section-categories {
+    max-width: 160px;
+
+    .categories-title {
+        font-weight: 600;
+        font-size: 1em;
+        margin-bottom: 1.5625em;
+        color: #000;
+    }
+
+    .categories-all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.75em;
+    }
+
+    .category-img {
+        width: 2.5em;
+        height: 2.5em;
+        object-fit: cover;
+        border-radius: 0.375em;
+        margin: 0;
+    }
+
+    .category-title {
+        font-weight: 500;
+        color: #000;
+        margin-left: 1em;
+    }
+}

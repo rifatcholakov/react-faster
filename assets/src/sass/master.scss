@@ -19,18 +19,25 @@
 // The Foundation framework
 @import "foundation/foundation";
 
-// The Font-Awesome build files
-@import "font-awesome/fontawesome";
-
 // Separating the largest parts of the site in specific files.
 @import "layout/header";
+@import "layout/content";
+@import "layout/footer";
 
 // Pages
 
-// Any other module that can be reused multuple times.
+// Components
 @import "components/buttons";
-@import "components/sections";
+@import "components/separators";
 @import "components/elements";
-@import "components/entry";
-@import "components/input";
 @import "components/top-panel";
+@import "components/featured";
+@import "components/search-bar";
+@import "components/recent-post";
+@import "components/cta";
+
+// Sections
+@import "sections/starter";
+@import "sections/categories";
+@import "sections/featured";
+@import "sections/recent";

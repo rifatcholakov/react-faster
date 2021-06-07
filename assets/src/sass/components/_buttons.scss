@@ -11,6 +11,22 @@
 		font-weight: 600;
 	}
 
+	&-secondary.transparent {
+		display: inline-block;
+		background: transparent;
+		color: #323232;
+		font-weight: 500;
+		border: 1px solid $color-separator;
+		padding: 0.875em 1.625em;
+
+		.icon {
+			color: #000;
+			display: inline-block;
+			margin-left: 0.875em;
+			vertical-align: middle;
+		}
+	}
+
 	&-search {
 		padding: 0.5em;
 		background: $color-search;
