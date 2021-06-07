@@ -32,4 +32,17 @@
         color: #000;
         margin-left: 1em;
     }
+
+    @media screen and (max-width: $breakpoint-large) {
+        max-width: 100%;
+
+        .categories-all {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .category-group {
+            margin-right: 1.5em;
+        }
+    }
 }

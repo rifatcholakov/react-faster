@@ -16,9 +16,6 @@
 // comment it out nothing will break.
 @import "base/styleguide";
 
-// The Foundation framework
-@import "foundation/foundation";
-
 // Separating the largest parts of the site in specific files.
 @import "layout/header";
 @import "layout/content";

@@ -30,13 +30,11 @@ const paths = {
 		sass: "assets/src/sass/",
 		images: "assets/src/images/",
 		html: "./index.html",
-		fonts: "assets/src/fonts/",
 	},
 	destination: {
 		scripts: "assets/dist/scripts/",
 		css: "assets/dist/css/",
 		images: "assets/dist/images/",
-		fonts: "assets/dist/fonts/",
 	},
 };
 
@@ -51,7 +49,6 @@ gulp.task("sass", function () {
 						paths.source.sass + "/base/_normalize.scss",
 						paths.source.sass + "/modularscale/**/*.scss",
 						paths.source.sass + "/foundation/**/*.scss",
-						paths.source.sass + "/font-awesome/**/*.scss",
 					],
 				},
 			})
@@ -139,10 +136,6 @@ gulp.task("optimizeImages", function () {
 		.pipe(newer(paths.destination.images))
 		.pipe(imagemin())
 		.pipe(gulp.dest(paths.destination.images));
-});
-
-gulp.task("optimizeFonts", function () {
-	gulp.src(paths.source.fonts + "*").pipe(gulp.dest(paths.destination.fonts));
 });
 
 // This will take care of rights permission errors if any

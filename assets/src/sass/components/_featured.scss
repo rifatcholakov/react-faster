@@ -18,6 +18,12 @@
         font-size: 1.125em;
         color: #424242;
     }
+
+    @media screen and (max-width: $breakpoint-large) {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0;
+    }
 }
 
 .featured-items-group {
@@ -41,6 +47,18 @@
         font-weight: 500;
         font-size: 1.125em;
         color: #000;
+    }
+
+    @media screen and (max-width: $breakpoint-large) {
+        max-width: 100%;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2em;
+
+        .featured-item {
+            flex-basis: calc((100% / 3) - 1em);
+        }
     }
 }
 
