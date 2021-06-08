@@ -708,6 +708,9 @@ hr.clear {
   .top-panel .panel-icon {
     font-weight: 400;
     color: #fff; }
+  @media screen and (max-width: 60em) {
+    .top-panel {
+      display: none; } }
 
 .featured-item-main {
   max-width: 600px;
@@ -753,6 +756,12 @@ hr.clear {
       margin-top: 2em; }
       .featured-items-group .featured-item {
         flex-basis: calc((100% / 3) - 1em); } }
+  @media screen and (max-width: 40em) {
+    .featured-items-group {
+      flex-wrap: wrap; }
+      .featured-items-group .featured-item {
+        flex-basis: 100%;
+        padding: 1em 2em; } }
 
 .search-bar {
   background: #EEEEEE;
@@ -798,6 +807,9 @@ hr.clear {
 
 .cta-group {
   margin-top: 2.625em; }
+  @media screen and (max-width: 60em) {
+    .cta-group {
+      text-align: center; } }
 
 .section-starter {
   width: 100%;
@@ -836,7 +848,8 @@ hr.clear {
     margin-left: 1em; }
   @media screen and (max-width: 77.5em) {
     .section-categories {
-      max-width: 100%; }
+      max-width: 100%;
+      display: none; }
       .section-categories .categories-all {
         flex-direction: row;
         flex-wrap: wrap; }

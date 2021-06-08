@@ -35,6 +35,7 @@
 
     @media screen and (max-width: $breakpoint-large) {
         max-width: 100%;
+        display: none;
 
         .categories-all {
             flex-direction: row;

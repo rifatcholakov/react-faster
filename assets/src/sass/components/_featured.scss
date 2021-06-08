@@ -60,5 +60,14 @@
             flex-basis: calc((100% / 3) - 1em);
         }
     }
+
+    @media screen and (max-width: $breakpoint-small) {
+        flex-wrap: wrap;
+
+        .featured-item {
+            flex-basis: 100%;
+            padding: 1em 2em;
+        }
+    }
 }
 

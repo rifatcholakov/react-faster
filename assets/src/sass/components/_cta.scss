@@ -1,3 +1,7 @@
 .cta-group {
     margin-top: 2.625em;
+
+    @media screen and (max-width: $breakpoint-medium) {
+        text-align: center;
+    }
 }

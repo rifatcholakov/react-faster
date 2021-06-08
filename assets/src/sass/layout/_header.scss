@@ -55,4 +55,8 @@
             margin-right: 0.4375em;
         }
     }
+
+    @media screen and (max-width: $breakpoint-medium) {
+        display: none;
+    }
 }
